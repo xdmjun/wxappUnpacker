@@ -1,8 +1,6 @@
 
 # 说明
-- 本项目无法适用于 2018 年前开发的小程序(如最后更新时间为 2017.7.12), 请过早的小程序不用再尝试了
-- 本项目完全基于 [wxappUnpacker](https://github.com/qwerty472123/wxappUnpacker "wxappUnpacker") 改进的。
-
+- 来自网友基于 [wxappUnpacker](https://github.com/qwerty472123/wxappUnpacker "wxappUnpacker") 改进的开源项目。
 
 # 分包功能
 
