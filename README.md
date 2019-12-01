@@ -7,6 +7,21 @@
 npm install
 ```
 
+# 安装依赖
+```
+npm install esprima
+    
+npm install css-tree
+    
+npm install cssbeautify
+    
+npm install vm2
+    
+npm install uglify-es
+    
+npm install js-beautify
+```
+
 # 分包功能
 
 当检测到 wxapkg 为子包时, 添加-s 参数指定主包源码路径即可自动将子包的 wxss,wxml,js 解析到主包的对应位置下. 完整流程大致如下: 
