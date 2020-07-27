@@ -32,8 +32,10 @@ function doWxss(dir, cb, mainDir, nowDir) {
 				else ++importCnt[id];
 			}
 
-            if (typeof data === "number") return addStat(data);
-            for (let content of data) if (typeof content === "object" && content[0] == 2) addStat(content[1]);
+            if (typeof data === "number") return addStat(data);  
+            if (data != undefined) {
+                for (let content of data) if (typeof content === "object" && content[0] == 2) addStat(content[1]);
+            }
         }
 
         function makeup(data) {
@@ -236,7 +238,13 @@ function doWxss(dir, cb, mainDir, nowDir) {
             mainCode = mainCode.replace('var setCssToHead = function', 'var setCssToHead2 = function');
 
             code = code.slice(code.lastIndexOf('var setCssToHead = function(file, _xcInvalid'));
-            code = code.slice(code.lastIndexOf('\nvar _C= ') + 1);
+            code = code.replace('__COMMON_STYLESHEETS__', '[]');
+            
+            if (code.indexOf('_C =') == -1) {
+                code = code.slice(code.lastIndexOf('\nvar _C= ') + 1);
+            } else {
+                code = code.slice(code.lastIndexOf('\nvar _C = ') + 1);
+            }
 
             code = code.slice(0, code.indexOf('\n'));
             let vm = new VM({sandbox: {}});
