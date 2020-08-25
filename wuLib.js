@@ -1,5 +1,7 @@
 const fs = require("fs");
 const path = require("path");
+const os = require('os');
+let platform = os.platform();
 
 class CntEvent {
     constructor() {
@@ -83,7 +85,13 @@ function mkdirs(dir, cb) {
 function save(name, content) {
     ioEvent.encount();
     mkdirs(path.dirname(name), () => ioLimit.runWithCb(fs.writeFile.bind(fs), name, content, err => {
-        if (err) throw Error("Save file error: " + err);
+        if (err) {
+            if (platform.indexOf('win') != -1) {
+              console.log('Save file error: ' + err);
+            } else {
+              throw Error('Save file error: ' + err);
+            }
+        }
         ioEvent.decount();
     }));
 }
