@@ -71,6 +71,10 @@ function doWxss(dir, cb, mainDir, nowDir) {
                     if (content != '1') {
                       fileStyle += content
                     }
+                  } else {
+                    if (content.length != 1) {
+                      fileStyle += content[1] + 'rpx'
+                    }
                   }
                 }
               }
