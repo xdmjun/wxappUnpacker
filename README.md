@@ -53,7 +53,7 @@ TIP
 
 # 技术交流群
 如果您有疑问或者有其它问题可以加入技术交流群一起学习 😄
-<img src="http://cdn.xuedingmiao.com/jlq.png" alt="技术交流群" height="185" />
+<img src="jlq.png" alt="技术交流群" height="185" />
 
 # 自助解包客户端
 [基于electron-vue开发的微信小程序自助解包(反编译)客户端](https://github.com/xuedingmiaojun/mp-unpack)
