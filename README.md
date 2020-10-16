@@ -52,7 +52,7 @@ TIP
 <img src="geek_road.jpg" alt="公众号" height="145" />
 
 # 技术交流群
-如果您有疑问或者有其它问题可以加入[技术交流群](http://cdn.xuedingmiao.com/jlq.png)一起学习 😄
+如果您有疑问或者有其它问题可以加入[技术交流群](http://cdn.xuedingmiao.com/jlq.png)一起学习 😄   
 <img src="jlq.png" alt="技术交流群" height="185" />
 
 # 自助解包客户端
