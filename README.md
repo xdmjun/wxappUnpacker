@@ -49,10 +49,10 @@ TIP
 ```
 
 # 公众号
-<img src="geek_road.jpg" alt="公众号" height="145" />
+<img src="geek_road.jpg" alt="公众号" height="145" />  
 
 # 技术交流群
-如果您有疑问或者有其它问题可以加入技术交流群一起学习 😄 (群已满，请添加下方博主微信备注加群，拉你进群)
+如果您有疑问或者有其它问题可以加入技术交流群一起学习 😄 (群已满，请添加下方博主微信备注加群，拉你进群)  
 <img src="http://cdn.xuedingmiao.com/bzwx.png" alt="技术交流群" height="185" />  
 
 # 自助解包客户端
