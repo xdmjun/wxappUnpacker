@@ -52,8 +52,8 @@ TIP
 <img src="geek_road.jpg" alt="公众号" height="145" />
 
 # 技术交流群
-如果您有疑问或者有其它问题可以加入[技术交流群](http://cdn.xuedingmiao.com/jlq.png)一起学习 😄   
-<img src="jlq.png" alt="技术交流群" height="185" />
+如果您有疑问或者有其它问题可以加入技术交流群一起学习 😄 (群已满，请添加下方博主微信备注加群，拉你进群)
+<img src="http://cdn.xuedingmiao.com/bzwx.png" alt="技术交流群" height="185" />  
 
 # 自助解包客户端
 [基于electron-vue开发的微信小程序自助解包(反编译)客户端](https://github.com/xuedingmiaojun/mp-unpack)
