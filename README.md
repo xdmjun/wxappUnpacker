@@ -51,9 +51,6 @@ TIP
 # 公众号
 <img src="geek_road.jpg" alt="公众号" height="145" />  
 
-# 技术交流群
-<img src="http://cdn.xuedingmiao.com/qun-intro.png" alt="技术交流群" height="185" />  
-
 # 逆向教程小程序
 <img src="http://cdn.xuedingmiao.com/nxjc.jpg" alt="逆向教程" height="185" />  
 
