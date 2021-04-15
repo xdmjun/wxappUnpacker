@@ -64,3 +64,5 @@ TIP
 快来看看视频系列课程吧~    
 [人人都能学会的微信小程序逆向技能](https://m.lizhiweike.com/channel2/1037814)
 
+# 逆向疑难小程序
+- [逆向喜茶Go](https://www.bilibili.com/video/BV1Lv411a73w/)
