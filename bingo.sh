@@ -21,6 +21,11 @@ wxappUnpacker() {
   echo "for wxapkg in `find ${de_dir} -name "*.${FILE_FORMAT}"`"
   for fname in `find ${de_dir} -name "*.${FILE_FORMAT}"`
     do
+      file_name=${fname##*/};
+      short_name=${file_name%*.wxapkg};
+      if [ -d $short_name ]
+        then rm -rf $short_name
+      fi
       wxappUnpacker_pkg ${fname} $2
     done
   return 0;
