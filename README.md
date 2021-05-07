@@ -9,17 +9,7 @@ npm install
 
 # 安装依赖
 ```
-npm install esprima
-    
-npm install css-tree
-    
-npm install cssbeautify
-    
-npm install vm2
-    
-npm install uglify-es
-    
-npm install js-beautify
+npm install esprima css-tree cssbeautify vm2 uglify-es js-beautify cheerio escodegen  
 ```
 
 # 分包功能
